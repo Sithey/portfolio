@@ -15,6 +15,7 @@ const HeroSection = () => {
                     className="col-span-8 place-self-center text-center sm:text-left justify-self-start">
                     <h1 className="text-white mb-4 text-4xl sm:text-5xl lg:text-6xl font-extrabold">
                         <span>
+                            {/* eslint-disable-next-line react/no-unescaped-entities */}
                             <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-800 to-blue-600">Hi, I'm{" "}</span>
                         </span>
                         <br/>

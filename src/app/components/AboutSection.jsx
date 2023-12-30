@@ -57,10 +57,13 @@ const AboutSection = () => {
                 <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
                     <h2 className="text-4xl font-bold text-white mb-4">About Me</h2>
                     <p className="text-base lg:text-lg">
+                        {/* eslint-disable-next-line react/no-unescaped-entities */}
                         I'm a young developer, and this is my passion. Ever since I was a child,
+                        {/* eslint-disable-next-line react/no-unescaped-entities */}
                         I've had a deep fascination with technology. In 2018,
                         I began creating my first projects in Java, specifically in Minecraft.<br/><br/>
                         In January 2023, I founded my own company, SharpHeberg, which specializes in server hosting.
+                        {/* eslint-disable-next-line react/no-unescaped-entities */}
                         It's been an exciting journey, and I look forward to continued growth and innovation in the technology field.
                     </p>
                     <div className="flex flex-row justify-start mt-8">
