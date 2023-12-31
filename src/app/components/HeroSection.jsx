@@ -32,7 +32,7 @@ const HeroSection = () => {
                                 1000,
                                 'Web Developer',
                                 1000,
-                                'SEO Of Hosting Provider',
+                                'CEO Of Hosting Provider',
                                 1000
                             ]}
                             wrapper="span"
