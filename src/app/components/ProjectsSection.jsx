@@ -9,11 +9,38 @@ const projectsData = [
         id: 1,
         title: "My Portfolio Website",
         description: "This is my portfolio website and was built using Next.JS",
-        image: "/images/projects/portfolio-project.png",
+        image: "/images/projects/portfolio-project.jpg",
         tag: ["All", "Web"],
-        gitUrl: null,
+        gitUrl: "https://github.com/Sithey/portfolio-project",
         previewUrl: null,
     },
+    {
+        id: 2,
+        title: "SharpHeberg",
+        description: "My server hosting company. Include VPS, Dedicated, Web and Game server hosting.Also making Java/Web development.",
+        image: "/images/projects/sharpheberg.png",
+        tag: ["All", "Web", "Java"],
+        gitUrl: null,
+        previewUrl: "https://www.sharpheberg.com/en/",
+    },
+    {
+        id: 3,
+        title: "Orivers",
+        description: "A Minecraft server project created by the YouTuber with 2 million subscribers, Siphano.",
+        image: "/images/projects/orivers.jpg",
+        tag: ["All", "Java"],
+        gitUrl: null,
+        previewUrl: "https://twitter.com/OriversMC/",
+    },
+    {
+        id: 4,
+        title: "Craftok",
+        description: "I was the lead developer of this Minecraft server project with over 300,000 unique players.",
+        image: "/images/projects/craftok.jpg",
+        tag: ["All", "Java"],
+        gitUrl: null,
+        previewUrl: "https://twitter.com/CraftokMC/",
+    }
 ];
 
 const ProjectsSection = () => {
