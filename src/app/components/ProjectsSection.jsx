@@ -17,7 +17,7 @@ const projectsData = [
     {
         id: 2,
         title: "SharpHeberg",
-        description: "My server hosting company. Include VPS, Dedicated, Web and Game server hosting.Also making Java/Web development.",
+        description: "My server hosting company. Include VPS, Dedicated, Web and Game server hosting. Also making Java/Web development.",
         image: "/images/projects/sharpheberg.png",
         tag: ["All", "Web", "Java"],
         gitUrl: null,
@@ -40,6 +40,15 @@ const projectsData = [
         tag: ["All", "Java"],
         gitUrl: null,
         previewUrl: "https://twitter.com/CraftokMC/",
+    },
+    {
+        id: 5,
+        title: "SupDev",
+        description: "SupDev is a project that I undertook with fellow Minecraft developer friends. Its primary aim was to gather a community to fulfill development commands.",
+        image: "/images/projects/supdev.jpg",
+        tag: ["All", "Java"],
+        gitUrl: null,
+        previewUrl: "https://discord.gg/SYdffy5YZv",
     }
 ];
 
