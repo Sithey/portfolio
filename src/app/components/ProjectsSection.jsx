@@ -63,7 +63,7 @@ const ProjectsSection = () => {
 
     return (
         <section>
-            <div id="projects">
+            <div id="projects" className={"bg-[#1a1a1a]  gap-8 py-8 px-4 xl:gap-16 sm:py-16 xl:px-16"}>
                 <h2 className="text-center text-4xl font-bold text-white mt-4 mb-8 md:mb-12">
                     Some Projects
                 </h2>

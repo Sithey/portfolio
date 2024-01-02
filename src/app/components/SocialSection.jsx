@@ -22,8 +22,8 @@ const SocialSection = () => {
         ]
 
     return (
-      <section className={"mt-10"}>
-          <div id="social" className={"bg-[#1a1a1a]"}>
+      <section>
+          <div id="social" className={"bg-[#1a1a1a] gap-8 py-8 px-4 xl:gap-16 sm:py-16 xl:px-16"}>
               <h2 className={"text-center text-4xl font-bold text-white mt-4 mb-8 md:mb-12"}>My Social Media</h2>
               <ul className="grid grid-cols-1 md:grid-cols-3 gap-4 md:mr-40 md:ml-40">
                   {social.map((social, index) => (
