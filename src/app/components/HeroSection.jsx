@@ -53,7 +53,7 @@ const HeroSection = () => {
                         </button>
                     </a>
 
-                    <a href="/pdf/EnglishCV.pdf" download>
+                    <a href="/pdf/RAPHAELZERBIB.pdf" download>
                         <button
                             className="px-10 py-3 w-full sm:w-fit rounded-full bg-gradient-to-r from-blue-800 to-blue-600 hover:bg-slate-200 text-white flex items-center justify-center">
                             <svg xmlns="http://www.w3.org/2000/svg" height="16" width="15.5" viewBox="0 0 496 512"
