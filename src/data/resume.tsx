@@ -165,7 +165,7 @@ export const DATA = {
         "TypeScript",
         "NextAuth.js",
         "Prisma",
-        "SQLite",
+        "PostgreSQL",
         "Shadcn UI",
         "Tailwind CSS",
         "Nodemailer",

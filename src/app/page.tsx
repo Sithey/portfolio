@@ -7,6 +7,8 @@ import { Badge } from "@/components/ui/badge";
 import { DATA } from "@/data/resume";
 import Link from "next/link";
 import Markdown from "react-markdown";
+import { Button } from "@/components/ui/button";
+import { Download } from "lucide-react";
 
 const BLUR_FADE_DELAY = 0.04;
 
@@ -37,6 +39,17 @@ export default function Page() {
             </BlurFade>
           </div>
         </div>
+      </section>
+
+      <section id="downloadCV" className="flex justify-center">
+        <BlurFade delay={BLUR_FADE_DELAY * 2}>
+          <a href="/RAPHAELZERBIB.pdf" target="_blank" rel="noopener noreferrer">
+            <Button className="flex gap-2 items-center px-6 py-6">
+              <Download className="size-5" />
+              <span>Download My Resume</span>
+            </Button>
+          </a>
+        </BlurFade>
       </section>
 
       <section id="about">
