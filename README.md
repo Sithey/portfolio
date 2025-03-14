@@ -1,32 +1,47 @@
-# My Developer Portfolio
+<div align="center">
+<img alt="Portfolio" src="https://github.com/dillionverma/portfolio/assets/16860528/57ffca81-3f0a-4425-b31d-094f61725455" width="90%">
+</div>
 
-Welcome to my developer portfolio! I'm Raphael Zerbib, a passionate developer who loves building innovative software solutions. This portfolio showcases some of my best projects and highlights my skills and experience.
+# Portfolio [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fdillionverma%2Fportfolio)
 
-## About Me
+Built with next.js, [shadcn/ui](https://ui.shadcn.com/), and [magic ui](https://magicui.design/), deployed on Vercel.
 
-- **Location:** Israel
-- **Email:** raphi.zerbib@gmail.com
-- **Portfolio Website:** [https://raphaelzerbib.sharpheberg.com](https://raphaelzerbib.sharpheberg.com)
-- **LinkedIn:** [https://www.linkedin.com/in/raphaelzerbib3010/](https://www.linkedin.com/in/raphaelzerbib3010/)
-- **GitHub:** [https://github.com/Sithey/](https://github.com/Sithey/)
+# Features
 
-## Portfolio Overview
+- Setup only takes a few minutes by editing the [single config file](./src/data/resume.tsx)
+- Built using Next.js 14, React, Typescript, Shadcn/UI, TailwindCSS, Framer Motion, Magic UI
+- Includes a blog
+- Responsive for different devices
+- Optimized for Next.js and Vercel
 
-This repository serves as a central hub for my portfolio. You can find detailed information about my projects, skills, and experiences here. Feel free to explore the repository and check out my work!
+# Getting Started Locally
 
-## Technologies Used
+1. Clone this repository to your local machine:
 
-- **Framework:** Next.js
-- **Programming Languages:** JavaScript, React, TailwindCSS
-- **Deployment:** Vercel
+   ```bash
+   git clone https://github.com/dillionverma/portfolio
+   ```
 
-## Getting Started
+2. Move to the cloned directory
 
-To run this portfolio locally or deploy it yourself:
+   ```bash
+   cd portfolio
+   ```
 
-1. Clone this repository.
-2. Install the necessary dependencies using [package manager, e.g., npm or yarn].
-3. Run the development server using `npm run dev`.
-4. Open your browser and navigate to `http://localhost:3000` to view the portfolio.
+3. Install dependencies:
 
-Thank you for visiting my portfolio repository!
+   ```bash
+   pnpm install
+   ```
+
+4. Start the local Server:
+
+   ```bash
+   pnpm dev
+   ```
+
+5. Open the [Config file](./src/data/resume.tsx) and make changes
+
+# License
+
+Licensed under the [MIT license](https://github.com/dillionverma/portfolio/blob/main/LICENSE.md).
