@@ -31,10 +31,10 @@ export const DATA = {
     "Tailwind",
     "Linux",
     "Windows",
+    "Web3",
+    "Dune Analytics",
   ],
-  navbar: [
-    { href: "/", icon: HomeIcon, label: "Home" },
-  ],
+  navbar: [{ href: "/", icon: HomeIcon, label: "Home" }],
   contact: {
     email: "raphi.zerbib@gmail.com",
     tel: "+972 53 708 5340",
@@ -67,12 +67,26 @@ export const DATA = {
   },
   work: [
     {
+      company: "MEV Capital",
+      href: "https://www.mevcapital.com/",
+      badges: [],
+      location: "Remote",
+      title: "Developer",
+      logoUrl:
+        "https://cdn.prod.website-files.com/68515e2e9ecee091e255d1b7/6852776785e2750535fd02be_mevcapital-logo.svg",
+      start: "2025",
+      end: "Present",
+      description:
+        "Developing DeFi solutions and on-chain analytics tools for a leading investment & risk management firm. Working with Web3 technologies and Dune Analytics to build yield strategies and liquidity management systems in the decentralized finance ecosystem.",
+    },
+    {
       company: "SharpHeberg.com",
       href: "https://sharpheberg.com",
       badges: [],
       location: "Remote",
       title: "Founder & CEO",
-      logoUrl: "https://sharpheberg.com/wp-content/uploads/2024/01/sharpheberg-logo-sans-fond-256x256-1.png",
+      logoUrl:
+        "https://sharpheberg.com/wp-content/uploads/2024/01/sharpheberg-logo-sans-fond-256x256-1.png",
       start: "2023",
       end: "Present",
       description:
@@ -84,7 +98,8 @@ export const DATA = {
       badges: [],
       location: "Remote",
       title: "Coding Instructor",
-      logoUrl: "https://codii.fr/wp-content/uploads/2021/09/Codii-robot-1080-x-1080-px-1.png",
+      logoUrl:
+        "https://codii.fr/wp-content/uploads/2021/09/Codii-robot-1080-x-1080-px-1.png",
       start: "2024",
       end: "Present",
       description:
@@ -96,7 +111,8 @@ export const DATA = {
       badges: [],
       location: "Israel",
       title: "Overseas Recruit Department",
-      logoUrl: "https://www.idf.il/media/yyeecbse/%D7%A1%D7%9E%D7%9C-%D7%A6%D7%94_%D7%9C-%D7%A2%D7%93%D7%9B%D7%A0%D7%99.png?anchor=center&mode=crop&width=73&height=71&rnd=133746184863130000",
+      logoUrl:
+        "https://www.idf.il/media/yyeecbse/%D7%A1%D7%9E%D7%9C-%D7%A6%D7%94_%D7%9C-%D7%A2%D7%93%D7%9B%D7%A0%D7%99.png?anchor=center&mode=crop&width=73&height=71&rnd=133746184863130000",
       start: "2020",
       end: "2022",
       description:
@@ -108,7 +124,8 @@ export const DATA = {
       school: "Ruppin Academic Center",
       href: "https://www.ruppin.ac.il/",
       degree: "Bachelor's Degree in Computer Science",
-      logoUrl: "https://yt3.googleusercontent.com/DAGGTqsHAftX6Eaw8Psk2dHqZBNBL3lUCKwiZ2U3XYi_3Mi50EDdadTeha8Oq6PWzXg0yD0i1Q=s900-c-k-c0x00ffffff-no-rj",
+      logoUrl:
+        "https://yt3.googleusercontent.com/DAGGTqsHAftX6Eaw8Psk2dHqZBNBL3lUCKwiZ2U3XYi_3Mi50EDdadTeha8Oq6PWzXg0yD0i1Q=s900-c-k-c0x00ffffff-no-rj",
       start: "2025",
       end: "Present",
     },
@@ -141,7 +158,7 @@ export const DATA = {
         "Plesk",
         "Java",
         "Virtualizor",
-        "WHMCS"
+        "WHMCS",
       ],
       links: [
         {
