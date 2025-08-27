@@ -8,33 +8,41 @@ export const DATA = {
   location: "Netanya, Israel",
   locationLink: "https://www.google.com/maps/place/Netanya",
   description:
-    "Developer & Entrepreneur. Passionate about building innovative solutions and sharing knowledge.",
+    "Full-Stack Developer & Entrepreneur. Passionate about building innovative solutions and sharing knowledge.",
   summary:
-    "I'm the founder of SharpHeberg, a server hosting company serving 30+ active clients. I also work as a coding instructor, teaching Scratch and Python to children. Currently pursuing a Bachelor's Degree in Computer Science at Ruppin Academic Center, with a strong focus on software development, algorithms, and system architecture.",
+    "I'm the founder of SharpHeberg, a server hosting company serving 30+ active clients. I'm also a full-stack developer for a DeFi risk curator company, building on-chain analytics and yield optimization solutions. I work as a coding instructor, teaching Scratch and Python to children. Currently pursuing a Bachelor's Degree in Computer Science at Ruppin Academic Center, with a strong focus on software development, algorithms, and system architecture.",
   avatarUrl: "/me.png",
   skills: [
+    // Frontend
     "React",
     "JavaScript",
     "TypeScript",
+    "NextJS",
+    "Vue.JS",
+    // Backend
     "Node.js",
     "Python",
     "Java",
-    "NextJS",
-    "Vue.JS",
+    "REST APIs",
+    // Databases
     "MongoDB",
     "MySQL",
     "PostgreSQL",
+    "Neon",
+    "Supabase",
     "Redis",
     "Prisma",
-    "HTML5",
-    "CSS3",
-    "Tailwind",
+    // DevOps & Systems
+    "Docker",
+    "Kubernetes",
     "Linux",
     "Windows",
+    "Git",
+    // Web3 & Analytics
+    "Web3",
+    "Dune Analytics",
   ],
-  navbar: [
-    { href: "/", icon: HomeIcon, label: "Home" },
-  ],
+  navbar: [{ href: "/", icon: HomeIcon, label: "Home" }],
   contact: {
     email: "raphi.zerbib@gmail.com",
     tel: "+972 53 708 5340",
@@ -67,12 +75,26 @@ export const DATA = {
   },
   work: [
     {
+      company: "MEV Capital",
+      href: "https://www.mevcapital.com/",
+      badges: ["Full-Stack", "DeFi", "Web3"],
+      location: "Remote",
+      title: "Full-Stack Developer",
+      logoUrl:
+        "https://cdn.prod.website-files.com/68515e2e9ecee091e255d1b7/6852776785e2750535fd02be_mevcapital-logo.svg",
+      start: "2025",
+      end: "Present",
+      description:
+        "Developing DeFi solutions and on-chain analytics tools for a leading investment & risk management firm. Working with Web3 technologies and Dune Analytics to build yield strategies and liquidity management systems in the decentralized finance ecosystem.",
+    },
+    {
       company: "SharpHeberg.com",
       href: "https://sharpheberg.com",
-      badges: [],
+      badges: ["Full-Stack", "Infrastructure", "DevOps"],
       location: "Remote",
       title: "Founder & CEO",
-      logoUrl: "https://sharpheberg.com/wp-content/uploads/2024/01/sharpheberg-logo-sans-fond-256x256-1.png",
+      logoUrl:
+        "https://sharpheberg.com/wp-content/uploads/2024/01/sharpheberg-logo-sans-fond-256x256-1.png",
       start: "2023",
       end: "Present",
       description:
@@ -81,22 +103,24 @@ export const DATA = {
     {
       company: "Codii.fr",
       href: "https://codii.fr",
-      badges: [],
+      badges: ["Teaching", "Python", "Scratch"],
       location: "Remote",
       title: "Coding Instructor",
-      logoUrl: "https://codii.fr/wp-content/uploads/2021/09/Codii-robot-1080-x-1080-px-1.png",
+      logoUrl:
+        "https://codii.fr/wp-content/uploads/2021/09/Codii-robot-1080-x-1080-px-1.png",
       start: "2024",
       end: "Present",
       description:
         "Teach Scratch and Python to children, fostering logical thinking and creativity. Develop engaging educational materials and interactive coding activities. Provide personalized mentoring to help students gain confidence and reach their learning goals. Encourage problem-solving through hands-on projects and real-world coding exercises.",
     },
     {
-      company: "Meitav",
+      company: "IDF - Israeli Defense Forces",
       href: "#",
-      badges: [],
+      badges: ["Team Management", "Translation"],
       location: "Israel",
       title: "Overseas Recruit Department",
-      logoUrl: "https://www.idf.il/media/yyeecbse/%D7%A1%D7%9E%D7%9C-%D7%A6%D7%94_%D7%9C-%D7%A2%D7%93%D7%9B%D7%A0%D7%99.png?anchor=center&mode=crop&width=73&height=71&rnd=133746184863130000",
+      logoUrl:
+        "https://www.idf.il/media/yyeecbse/%D7%A1%D7%9E%D7%9C-%D7%A6%D7%94_%D7%9C-%D7%A2%D7%93%D7%9B%D7%A0%D7%99.png?anchor=center&mode=crop&width=73&height=71&rnd=133746184863130000",
       start: "2020",
       end: "2022",
       description:
@@ -108,9 +132,10 @@ export const DATA = {
       school: "Ruppin Academic Center",
       href: "https://www.ruppin.ac.il/",
       degree: "Bachelor's Degree in Computer Science",
-      logoUrl: "https://yt3.googleusercontent.com/DAGGTqsHAftX6Eaw8Psk2dHqZBNBL3lUCKwiZ2U3XYi_3Mi50EDdadTeha8Oq6PWzXg0yD0i1Q=s900-c-k-c0x00ffffff-no-rj",
-      start: "2025",
-      end: "Present",
+      logoUrl:
+        "https://yt3.googleusercontent.com/DAGGTqsHAftX6Eaw8Psk2dHqZBNBL3lUCKwiZ2U3XYi_3Mi50EDdadTeha8Oq6PWzXg0yD0i1Q=s900-c-k-c0x00ffffff-no-rj",
+      start: "2024",
+      end: "2027",
     },
     {
       school: "Tamar Ariel High School",
@@ -141,7 +166,7 @@ export const DATA = {
         "Plesk",
         "Java",
         "Virtualizor",
-        "WHMCS"
+        "WHMCS",
       ],
       links: [
         {
@@ -185,5 +210,32 @@ export const DATA = {
       image: "",
       video: "",
     },
+    {
+      title: "MEV Capital curated vaults tracker",
+      href: "https://vaults.mevcapital.com/",
+      dates: "2025",
+      active: true,
+      description:
+          "Comprehensive DeFi vault analytics platform providing real-time tracking of yield strategies, risk metrics, and performance data. Features live on-chain data aggregation, custom dashboards for portfolio analysis, and automated monitoring of vault positions across multiple DeFi protocols.",
+      technologies: [
+        "Next.js",
+        "TypeScript",
+        "Shadcn UI",
+        "Tailwind CSS",
+        "Redis",
+        "Web3",
+        "Viem",
+        "Wagmi",
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "https://vaults.mevcapital.com/",
+          icon: <Icons.globe className="size-3" />,
+        },
+      ],
+      image: "",
+      video: "",
+    }
   ],
 } as const;
