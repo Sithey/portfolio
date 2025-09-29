@@ -94,7 +94,7 @@ export const DATA = {
       location: "Remote",
       title: "Founder & CEO",
       logoUrl:
-        "https://sharpheberg.com/wp-content/uploads/2024/01/sharpheberg-logo-sans-fond-256x256-1.png",
+        "https://www.sharpheberg.com/_next/image?url=%2Fimages%2Flogo-1080x1080-white.png&w=1080&q=75",
       start: "2023",
       end: "Present",
       description:
