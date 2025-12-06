@@ -24,6 +24,7 @@ export const DATA = {
     "Python",
     "Java",
     "REST APIs",
+    "GoLang",
     // Databases
     "MongoDB",
     "MySQL",
@@ -34,7 +35,6 @@ export const DATA = {
     "Prisma",
     // DevOps & Systems
     "Docker",
-    "Kubernetes",
     "Linux",
     "Windows",
     "Git",
